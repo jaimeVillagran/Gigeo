@@ -1,0 +1,47 @@
+.container__sec {
+    width: 100%;
+    margin: auto;
+    border-bottom: 1px solid $gray;
+}
+
+.container__imagen {
+    height: 75px;
+    padding-top: 10px;
+    display: flex;
+}
+
+.profile__imagen {
+    border-radius: 50px;
+    width: 55px;
+    height: 55px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.personal__datos {
+    width: 100%;
+    display: inline;
+}
+
+.card__video {
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    min-width: 0;
+    background-color: $white;
+    margin-bottom: 20px;
+}
+
+.card__title {
+    font-size: 17px;
+    font-weight: 700px;
+    margin-bottom: 1.5px;
+}
+
+.card__text {
+    font-size: 14px;
+    font-weight: lighter;
+    margin: 0px;
+    padding: 0px;
+    color: rgb(70, 70, 70);
+}

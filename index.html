@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIGEO app</title>
+    <!-- fontAwesome 5.15.3 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+</head>
+
+
+
+<body>
+    <!--este el logo izquierdo del navbar-->
+    <nav class="navbar navbar-light bg-light d-flex container">
+        <div class="mr-auto">
+            <span class="navbar-brand mb-0 navbar__log">GIGEO</span>
+            <span class="navbar-brand mb-4 navbar__log2">Art</span>
+        </div>
+        <!--aqui va los iconos al lado derecho del navbar-->
+        <div class="navbar__icons">
+            <i class="icon bi bi-search"></i>
+            <i class="icon bi bi-camera-video-fill"></i>
+            <i class="icon bi bi-plus-lg"></i>
+            <i class="icon bi bi-bell"></i>
+            <i class="bi bi-list"></i>
+        </div>
+    </nav>
+
+    <!-- Foto banner principal -->
+    <figure class="foto-pricipal">
+        <div class="foto-principal__container"></div>
+    </figure>
+
+    <!-- seccfion avatar y botones* -->
+    <section class="row container__sec align-items-center container">
+        <div class="container col-7 d-flex align-items-center">
+            <!-- foto avatar, nombre y seguidores -->
+            <div class="container__imagen ma-4">
+                <img class="profile__imagen" src="assets/img/profile-image.png " alt=" ">
+            </div>
+            <article class="personal__datos">
+                <h5><strong>Yuki Mukami</strong></h5>
+                <p>30.000 seguidores</p>
+            </article>
+        </div>
+
+        <!-- botones -->
+        <div class="col-5 container__button">
+            <button class="btn btn-info icon mr-2">Mensaje</button>
+            <button class="btn btn-danger icon">Seguir</button>
+        </div>
+    </section>
+
+
+    <!--aqui iria la seccion principal de videos-->
+    <main class="main__container container">
+        <section class="main__section mt-5 ">
+            <h4 class="main__title mb-4">Videos populares</h4>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-12 ">
+                    <div class="card__video ">
+                        <img src="assets/img/image-1.png" class="card-img-top" alt="...">
+                        <div class="card__body">
+                            <h5 class="card__title">Después de la vela - Yuki Mukani</h5>
+                            <p class="card__text">16k vistas - 1 semana atrás</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 ">
+                    <div class="card__video">
+                        <img src="assets/img/image-2.png" class="card-img-top" alt="...">
+                        <div class="card__body">
+                            <h5 class="card__title">Far Away - Yuki Mukani</h5>
+                            <p class="card__text">100k vistas - 1 mes atrás</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 ">
+                    <div class="card__video">
+                        <img src="assets/img/image-3.png" class="card-img-top" alt="...">
+                        <div class="card__body">
+                            <h5 class="card__title">City - Yuki Mukani</h5>
+                            <p class="card__text">20k vistas - 1 mes atrás</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 ">
+                    <div class="card__video">
+                        <img src="assets/img/image-4.png" class="card-img-top" alt="...">
+                        <div class="card__body">
+                            <h5 class="card__title">A Yuki Tale - Yuki Mukani</h5>
+                            <p class="card__text">1m vistas - 1 año atrás</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-12 ">
+                    <div class="card__video" style="width: 100%;">
+                        <img src="assets/img/image-5.png" class="card-img-top" alt="...">
+                        <div class="card__body">
+                            <h5 class="card__title">Mapocho - Yuki Mukani</h5>
+                            <p class="card__text">100k vistas - 1 mes atrás</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 ">
+                    <div class="card__video">
+                        <img src="assets/img/image-6.png" class="card-img-top" alt="...">
+                        <div class="card__body">
+                            <h5 class="card__title">Luky Days - Yuki Mukani</h5>
+                            <p class="card__text">40k vistas - 3 meses atrás</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 ">
+                    <div class="card__video">
+                        <img src="assets/img/image-7.png" class="card-img-top" alt="...">
+                        <div class="card__body">
+                            <h5 class="card__title">30 days in My House</h5>
+                            <p class="card__text">10k vistas - 4 meses atrás</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 ">
+                    <div class="card__video">
+                        <img src="assets/img/image-8.png" class="card-img-top" alt="...">
+                        <div class="card__body">
+                            <h5 class="card__title">Santiago - Yuki Mukani</h5>
+                            <p class="card__text">40k vistas - 3 meses atrás</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+</body>
+
+</html>

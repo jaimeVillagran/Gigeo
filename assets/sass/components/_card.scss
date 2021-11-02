@@ -1,0 +1,19 @@
+.card__video {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: $white;
+    background-clip: border-box;
+    border-radius: 0.25rem;
+    width: 100%;
+}
+
+.card__body {
+    margin-left: 0rem;
+}
+
+.card__title {
+    margin-left: 0rem;
+}
